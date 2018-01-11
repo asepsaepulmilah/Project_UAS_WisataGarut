@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ppb.tugasuas.wisatagarut.MainActivity">
+
+    <TextView
+        android:id="@+id/selamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\nSELAMAT DATANG"
+        android:textColor="#1F3A93"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/di"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DI "
+        android:textStyle="bold"
+        android:textColor="#1F3A93"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:layout_below="@+id/selamat"/>
+    <TextView
+        android:id="@+id/tour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" WISATA GARUT "
+        android:textColor="#1F3A93"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:layout_below="@+id/di"/>
+    <ImageView
+        android:id="@+id/ImgView"
+        android:layout_width="700dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tour"
+        android:src="@drawable/garut" />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_below="@+id/ImgView"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

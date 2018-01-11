@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wisata Garut</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_peta">Map</string>
+</resources>
